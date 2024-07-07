@@ -33,10 +33,8 @@ make clean
 make
 cp src/.libs/curl /mnt/c/Users/marie/OneDrive/Desktop/Eurecom/Forensics/Project/curl/executables/32bit/curl_32bit
 
-# Set the LD_LIBRARY_PATH for 32-bit
 export LD_LIBRARY_PATH=/usr/lib/i386-linux-gnu
 
-# Verify 32-bit Executable (Optional)
 /mnt/c/Users/marie/OneDrive/Desktop/Eurecom/Forensics/Project/curl/executables/32bit/curl_32bit --version
 
 echo "Executables have been copied to ../executables."
